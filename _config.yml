@@ -1,0 +1,27 @@
+# Jekyll Site for 7 Days to Die Server
+
+# Configurations
+title: "UAS_7D2D Server Support"
+description: "Rules, latest news, and monthly purge announcements."
+baseurl: ""
+url: "https://your-username.github.io"
+
+# Theme & Plugins
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Navigation Header
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Rules"
+    url: "/rules"
+  - title: "News"
+    url: "/news"
+  - title: "Purge Announcements"
+    url: "/purge"
+
+# Markdown Support
+markdown: kramdown
